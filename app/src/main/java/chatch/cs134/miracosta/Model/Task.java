@@ -13,6 +13,12 @@ public class Task {
         mIsDone = isDone;
     }
 
+    public Task(String description, boolean isDone) {
+        mID = -1;
+        mDescription = description;
+        mIsDone = isDone;
+    }
+
     public long getID() {
         return mID;
     }
