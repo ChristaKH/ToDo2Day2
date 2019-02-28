@@ -19,6 +19,12 @@ public class Task {
         mIsDone = isDone;
     }
 
+    public Task(String description) {
+        mID = -1;
+        mDescription = description;
+        mIsDone = false;
+    }
+
     public long getID() {
         return mID;
     }
